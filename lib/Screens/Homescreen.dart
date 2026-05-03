@@ -73,10 +73,10 @@ class _HomeScreenState extends State<HomeScreen> {
     var w = MediaQuery.of(context).size.width;
     return Scaffold(
 
-      // appBar: AppBar(
-      //   elevation: 0,
-      //   title: Center(child: Text('Covid-Info')),
-      // ),
+      appBar: AppBar(
+        elevation: 0,
+        title: Center(child: Text('Covid-Info')),
+      ),
       body: SafeArea(
         child: Center(
           child: SingleChildScrollView(
