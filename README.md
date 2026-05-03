@@ -1,59 +1,99 @@
-# Covid Data (Flutter)
+# 📊 Covid Data (Flutter)
 
-**Overview**
-- **App**: A Flutter app showing COVID-19 statistics by country and worldwide.
-- **Purpose**: Browse country list, view country details, and see overall stats.
+A Flutter application that provides real-time COVID-19 statistics for countries worldwide with a clean and intuitive user interface.
 
-**Features**
-- **Search**: Search countries and view quick stats.
-- **Country details**: Daily cases, recovered, deaths and more.
-- **World statistics**: Aggregate global numbers and trends.
+---
 
-**Screenshots**
+## 🚀 Overview
+
+* 📱 **App Type**: Mobile Application (Flutter)
+* 🌍 **Purpose**: Track COVID-19 data globally and country-wise
+* 🎯 **Goal**: Provide quick, simple, and clear insights for users
+
+---
+
+## ✨ Features
+
+* 🔍 **Smart Search**
+  Quickly search and filter countries with instant results
+
+* 🌐 **Country-wise Data**
+  View detailed statistics including:
+
+  * Total cases
+  * Recovered
+  * Deaths
+  * Active cases
+
+* 📊 **Global Statistics**
+  Get worldwide COVID-19 data in a structured format
+
+* 🎨 **Clean UI**
+  Minimal and user-friendly interface for better readability
+
+---
 
 ## 📸 Screenshots
 
-Splash screen  
-<img src="Assets/splash%20screen.jpeg" width="150"/>
+Splash screen <img src="Assets/splash%20screen.jpeg" width="150"/>
 
-Countries list / Search  
-<img src="Assets/countries%20search.jpeg" width="150"/>
+Countries list / Search <img src="Assets/countries%20search.jpeg" width="150"/>
 
-Country details  
-<img src="Assets/country%20details.jpeg" width="150"/>
+Country details <img src="Assets/country%20details.jpeg" width="150"/>
 
-Overall stats  
-<img src="Assets/overall%20stats.jpeg" width="150"/>
+Overall stats <img src="Assets/overall%20stats.jpeg" width="150"/>
 
-**Requirements**
-- Install Flutter SDK (stable channel)
-- Run `flutter pub get` in the project root
+---
 
-**Run (example)**
+## 🛠 Tech Stack
+
+* **Flutter** (UI Framework)
+* **Dart** (Programming Language)
+* **REST API** (Data fetching)
+* **HTTP package** (API integration)
+
+---
+
+## ⚙️ Installation & Setup
+
 ```bash
+git clone https://github.com/MdGufranAnsari/Covid-app.git
+cd Covid-app
 flutter pub get
 flutter run
 ```
 
-**Assets used**
-- Used the following images from the `Assets` folder: `splash screen.jpeg`, `countries search.jpeg`, `country details.jpeg`, `overall stats.jpeg`.
-- Did NOT use assets with "virus" in the filename (`virus.jpg`, `virus1.jpg`).
+---
 
-**Notes**
-- If you want different screenshots or resized/cropped images, tell me which ones to swap.
-# covid_data
+## 📂 Project Structure
 
-A new Flutter project.
+```bash
+lib/
+ ├── screens/
+ ├── widgets/
+ ├── services/
+ ├── models/
+assets/
+ ├── images/
+```
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚧 Future Improvements
 
-A few resources to get you started if this is your first Flutter project:
+* 📈 Graphs and charts for trends
+* 🌙 Dark mode support
+* 🔔 Notifications for updates
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🤝 Contributing
+
+Contributions are welcome!
+Feel free to fork this repository and submit a pull request.
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a star ⭐ on GitHub!
