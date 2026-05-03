@@ -11,17 +11,19 @@
 
 **Screenshots**
 
-Splash screen
-![Splash Screen](Assets/splash%20screen.jpeg)
+## 📸 Screenshots
 
-Countries list / Search
-![Countries List](Assets/countries%20search.jpeg)
+Splash screen  
+<img src="Assets/splash%20screen.jpeg" width="150"/>
 
-Country details
-![Country Details](Assets/country%20details.jpeg)
+Countries list / Search  
+<img src="Assets/countries%20search.jpeg" width="150"/>
 
-Overall stats
-![Overall Stats](Assets/overall%20stats.jpeg)
+Country details  
+<img src="Assets/country%20details.jpeg" width="150"/>
+
+Overall stats  
+<img src="Assets/overall%20stats.jpeg" width="150"/>
 
 **Requirements**
 - Install Flutter SDK (stable channel)
